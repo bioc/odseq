@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(msa)
+import(kebabs)
+import(mclust)
+importFrom("stats", "quantile")

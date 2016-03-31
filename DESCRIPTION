@@ -1,0 +1,24 @@
+Package: odseq
+Type: Package
+Title: Outlier detection in multiple sequence alignments
+Version: 0.99.10
+Date: 2015-12-20
+Author: José Jiménez
+Maintainer: José Jiménez <jose@jimenezluna.com>
+Description: Performs outlier detection of sequences in a multiple
+        sequence alignment using bootstrap of predefined distance
+        metrics. Outlier sequences can make downstream analyses
+        unreliable or make the alignments less accurate while they are
+        being constructed. This package implements the OD-seq algorithm
+        proposed by Jehl et al (doi 10.1186/s12859-015-0702-1) for
+        aligned sequences and a variant using string kernels for
+        unaligned sequences.
+License: MIT + file LICENSE
+LazyData: True
+Encoding: UTF-8
+biocViews: Alignment, MultipleSequenceAlignment
+VignetteBuilder: knitr
+Suggests: knitr(>= 1.11)
+Depends: R (>= 3.2.3)
+Imports: msa (>= 1.2.1), kebabs (>= 1.4.1), mclust (>= 5.1)
+NeedsCompilation: no
